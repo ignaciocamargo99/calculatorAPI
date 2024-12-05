@@ -1,9 +1,3 @@
-<div align="center" id="top"> 
-  <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.freepik.es%2Fvectores%2Fcalculadora-dibujo&psig=AOvVaw13VSo3jXS3bOiAyArIzhO4&ust=1733502303756000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCKCSz7qFkYoDFQAAAAAdAAAAABAE" alt="CalculatorAPI" />
-
-&#xa0;
-
-  <!-- <a href="https://server.netlify.app">Demo</a> -->
 </div>
 
 <h1 align="center">Calculator API</h1>
@@ -15,7 +9,7 @@
   <a href="#white_check_mark-requirements">Requirements</a> &#xa0; | &#xa0;
   <a href="#checkered_flag-starting">Starting</a> &#xa0; | &#xa0;
   <a href="#memo-license">License</a> &#xa0; | &#xa0;
-  <a href="https://github.com/{{YOUR_GITHUB_USERNAME}}" target="_blank">Author</a>
+  <a href="https://github.com/ignaciocamargo99" target="_blank">Author</a>
 </p>
 
 <br>
@@ -57,8 +51,6 @@ $ npm start
 ```
 
 ## :memo: License
-
-This project is under license from MIT. For more details, see the [LICENSE](LICENSE.md) file.
 
 Made by [Ignacio Camargo](https://github.com/ignaciocamargo99)
 
