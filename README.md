@@ -8,7 +8,6 @@
   <a href="#rocket-technologies">Technologies</a> &#xa0; | &#xa0;
   <a href="#white_check_mark-requirements">Requirements</a> &#xa0; | &#xa0;
   <a href="#checkered_flag-starting">Starting</a> &#xa0; | &#xa0;
-  <a href="#checkered_flag-testing">Testing method</a> &#xa0; | &#xa0;
   <a href="#memo-license">License</a> &#xa0; | &#xa0;
   <a href="https://github.com/ignaciocamargo99" target="_blank">Author</a>
 </p>
@@ -51,8 +50,6 @@ $ npm start
 
 ```
 
-## :hammer_and_wrench: Testing method
-
 ## 🌐 Endpoint
 
 **URL:**  
@@ -65,15 +62,36 @@ $ npm start
 
 ## 📥 Parámetros del Request
 
-El método POST espera un JSON en el cuerpo de la solicitud con la siguiente estructura:
+POST method expects a JSON in the body of the request with the following structure:
 
 ```json
 {
   "expression": "2 + 3 * (4 - 1)"
 }
+```
 
+---
 
+**Successfull Response (200):**
 
+```json
+{
+  "result": 15
+}
+```
+
+**Error Response (400):**
+
+```json
+{
+  "error": "Invalid or missing 'expression'"
+}
+```
+
+## 📝 Notes
+
+- The mathematical expression should be valid and contain only supported operators (`+`, `-`, `*`, `/`, `()`).
+- Ensure that the server is running before making requests.
 
 ## :memo: License
 
@@ -82,4 +100,11 @@ Made by [Ignacio Camargo](https://github.com/ignaciocamargo99)
 &#xa0;
 
 <a href="#top">Back to top</a>
+
+```
+
+```
+
+```
+
 ```
