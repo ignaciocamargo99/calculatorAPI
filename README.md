@@ -8,6 +8,7 @@
   <a href="#rocket-technologies">Technologies</a> &#xa0; | &#xa0;
   <a href="#white_check_mark-requirements">Requirements</a> &#xa0; | &#xa0;
   <a href="#checkered_flag-starting">Starting</a> &#xa0; | &#xa0;
+  <a href="#checkered_flag-testing">Testing method</a> &#xa0; | &#xa0;
   <a href="#memo-license">License</a> &#xa0; | &#xa0;
   <a href="https://github.com/ignaciocamargo99" target="_blank">Author</a>
 </p>
@@ -50,6 +51,30 @@ $ npm start
 
 ```
 
+## :hammer_and_wrench: Testing method
+
+## 🌐 Endpoint
+
+**URL:**  
+`POST /calculate`
+
+**Content-Type:**  
+`application/json`
+
+---
+
+## 📥 Parámetros del Request
+
+El método POST espera un JSON en el cuerpo de la solicitud con la siguiente estructura:
+
+```json
+{
+  "expression": "2 + 3 * (4 - 1)"
+}
+
+
+
+
 ## :memo: License
 
 Made by [Ignacio Camargo](https://github.com/ignaciocamargo99)
@@ -57,3 +82,4 @@ Made by [Ignacio Camargo](https://github.com/ignaciocamargo99)
 &#xa0;
 
 <a href="#top">Back to top</a>
+```
