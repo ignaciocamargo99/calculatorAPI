@@ -1,5 +1,5 @@
 <div align="center" id="top"> 
-  <img src="./.github/app.gif" alt="CalculatorAPI" />
+  <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.freepik.es%2Fvectores%2Fcalculadora-dibujo&psig=AOvVaw13VSo3jXS3bOiAyArIzhO4&ust=1733502303756000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCKCSz7qFkYoDFQAAAAAdAAAAABAE" alt="CalculatorAPI" />
 
 &#xa0;
 
@@ -7,30 +7,6 @@
 </div>
 
 <h1 align="center">Calculator API</h1>
-
-<p align="center">
-  <img alt="Github top language" src="https://img.shields.io/github/languages/top/{{YOUR_GITHUB_USERNAME}}/server?color=56BEB8">
-
-  <img alt="Github language count" src="https://img.shields.io/github/languages/count/{{YOUR_GITHUB_USERNAME}}/server?color=56BEB8">
-
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/{{YOUR_GITHUB_USERNAME}}/server?color=56BEB8">
-
-  <img alt="License" src="https://img.shields.io/github/license/{{YOUR_GITHUB_USERNAME}}/server?color=56BEB8">
-
-  <!-- <img alt="Github issues" src="https://img.shields.io/github/issues/{{YOUR_GITHUB_USERNAME}}/server?color=56BEB8" /> -->
-
-  <!-- <img alt="Github forks" src="https://img.shields.io/github/forks/{{YOUR_GITHUB_USERNAME}}/server?color=56BEB8" /> -->
-
-  <!-- <img alt="Github stars" src="https://img.shields.io/github/stars/{{YOUR_GITHUB_USERNAME}}/server?color=56BEB8" /> -->
-</p>
-
-<!-- Status -->
-
-<!-- <h4 align="center">
-	🚧  Server 🚀 Under construction...  🚧
-</h4>
-
-<hr> -->
 
 <p align="center">
   <a href="#dart-about">About</a> &#xa0; | &#xa0; 
@@ -46,22 +22,18 @@
 
 ## :dart: About
 
-Describe your project
+This is a calculator API made with Node.js and Express.js. It allows you to calculate an expression with the following operators: +, -, \*, / and return the result. It contains a POST [/api/calculate] method that receives the expression to be calculated.
 
 ## :sparkles: Features
 
-:heavy_check_mark: Feature 1;\
-:heavy_check_mark: Feature 2;\
-:heavy_check_mark: Feature 3;
+:heavy_check_mark: Calculate an expression with the following operators: +, -, \*, / and return the result.
 
 ## :rocket: Technologies
 
 The following tools were used in this project:
 
-- [Expo](https://expo.io/)
 - [Node.js](https://nodejs.org/en/)
-- [React](https://pt-br.reactjs.org/)
-- [React Native](https://reactnative.dev/)
+- [Express.js](https://expressjs.com/)
 - [TypeScript](https://www.typescriptlang.org/)
 
 ## :white_check_mark: Requirements
@@ -72,7 +44,7 @@ Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) an
 
 ```bash
 # Clone this project
-$ git clone https://github.com/{{YOUR_GITHUB_USERNAME}}/server
+$ git clone https://github.com/ignaciocamargo99/calculatorAPI.git
 
 # Install dependencies
 $ npm install
@@ -81,13 +53,14 @@ $ npm install
 $ npm start
 
 # The server will initialize in the <http://localhost:3000>
+
 ```
 
 ## :memo: License
 
 This project is under license from MIT. For more details, see the [LICENSE](LICENSE.md) file.
 
-Made with :heart: by <a href="https://github.com/{{YOUR_GITHUB_USERNAME}}" target="_blank">{{YOUR_NAME}}</a>
+Made by [Ignacio Camargo](https://github.com/ignaciocamargo99)
 
 &#xa0;
 
