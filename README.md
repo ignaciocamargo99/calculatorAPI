@@ -60,7 +60,7 @@ $ npm start
 
 ---
 
-## 📥 Parámetros del Request
+## 📥 Request Parameters
 
 POST method expects a JSON in the body of the request with the following structure:
 
