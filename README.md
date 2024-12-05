@@ -100,11 +100,3 @@ Made by [Ignacio Camargo](https://github.com/ignaciocamargo99)
 &#xa0;
 
 <a href="#top">Back to top</a>
-
-```
-
-```
-
-```
-
-```
