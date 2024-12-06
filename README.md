@@ -53,7 +53,7 @@ $ npm start
 ## 🌐 Endpoint
 
 **URL:**  
-`POST /calculate`
+`POST /api/calculate`
 
 **Content-Type:**  
 `application/json`
