@@ -1,14 +1,12 @@
 import { OPERATORS, PRIORITY } from './constants.utils'
 
-// Tokeniza una cadena en números y operadores
 export function tokenize (expression: string): string[] {
   return expression
-    .replace(/\s+/g, '') // Elimina espacios
-    .split(/([+\-*/()])/) // Divide por operadores y paréntesis
-    .filter((token) => token.length > 0) // Elimina tokens vacíos
+    .replace(/\s+/g, '')
+    .split(/([+\-*/()])/)
+    .filter((token) => token.length > 0)
 }
 
-// Aplica un operador entre dos números
 export function applyOperator (a: number, b: number, operator: string): number {
   switch (operator) {
     case '+':
@@ -39,9 +37,7 @@ export function evaluateExpression (tokens: string[]): number {
 
   processRemainingOperators(stack, operatorStack)
 
-  if (stack.length !== 1) {
-    throw new Error('Invalid expression: leftover operands.')
-  }
+  if (stack.length !== 1) throw new Error('Invalid expression: leftover operands.')
 
   return stack[0]
 }
@@ -57,21 +53,15 @@ function handleOperator (token: string, stack: number[], operatorStack: string[]
 }
 
 function processTopOperator (stack: number[], operatorStack: string[]): void {
-  if (operatorStack.length === 0) {
-    throw new Error('Operator stack is empty.')
-  }
+  if (operatorStack.length === 0) throw new Error('Operator stack is empty.')
 
   const operator = operatorStack.pop()
-  if (stack.length < 2) {
-    throw new Error('Invalid expression: not enough operands.')
-  }
+  if (stack.length < 2) throw new Error('Invalid expression: not enough operands.')
 
   const b = stack.pop()
   const a = stack.pop()
 
-  if (a === undefined || b === undefined) {
-    throw new Error('Invalid expression: not enough operands in the stack.')
-  }
+  if (a === undefined || b === undefined) throw new Error('Invalid expression: not enough operands in the stack.')
 
   stack.push(applyOperator(a, b, operator as string))
 }
