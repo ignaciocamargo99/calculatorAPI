@@ -66,7 +66,7 @@ POST method expects a JSON in the body of the request with the following structu
 
 ```json
 {
-  "expression": "2 + 3 * (4 - 1)"
+  "expression": "10 * (2 + 5) * 10"
 }
 ```
 
@@ -76,7 +76,7 @@ POST method expects a JSON in the body of the request with the following structu
 
 ```json
 {
-  "result": 15
+  "result": 700
 }
 ```
 
